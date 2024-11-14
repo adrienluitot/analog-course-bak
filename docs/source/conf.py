@@ -17,6 +17,9 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'sphinx_toolbox.sidebar_links',
+    'sphinx_toolbox.github',
+    'sphinx_design'
 ]
 
 intersphinx_mapping = {
@@ -33,3 +36,7 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# -- Used to show GitHub repo on the side bar
+github_username = 'adrienluitot'
+github_repository = 'analog-course'

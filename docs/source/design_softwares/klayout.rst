@@ -1,0 +1,6 @@
+KLayout
+=======
+Installation
+------------
+Setup & Configuration
+---------------------
