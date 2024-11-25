@@ -29,6 +29,8 @@ Contents
    design_softwares/openems
    design_softwares/klayout
    design_softwares/revolutioneda
+   design_softwares/ngspice
+   design_softwares/openvaf
    design_softwares/opt_config
 
 

@@ -1,6 +1,8 @@
-openEMS
+OpenEMS
 =======
+
 Installation
 ------------
+
 Setup & Configuration
 ---------------------
