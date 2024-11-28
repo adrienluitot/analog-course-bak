@@ -39,3 +39,9 @@ Installing
 .. code-block:: shell
 
     sudo make install
+
+
+Cleaning workspace
+------------------
+
+You can now delete the ngspice folder located in ``tools_sources``

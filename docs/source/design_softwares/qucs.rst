@@ -60,6 +60,7 @@ After that, if not done yet, you should add the ``tools`` directory to your path
 .. code-block:: shell
 
     echo 'export PATH="$PATH:$HOME/microelectronics/tools/"' >> ~/.bashrc
+    export PATH="$PATH:$HOME/microelectronics/tools/"
 
 
 Linking PDK to Qucs-S
@@ -139,8 +140,8 @@ the file ``.tar.gz`` file corresponding to the version you want to install. Here
 Move the downloaded file to your ``tools_sources`` directory to keep things clean.
 
 
-Builing and installing Qucs-S
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Building and installing Qucs-S
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 First unarchive the sources and create a temporary build directory:
 
@@ -170,6 +171,7 @@ And finally install it and adding to path:
 
     make install
     echo 'export PATH="$PATH:$HOME/microelectronics/tools/qucs-s/bin"' >> ~/.bashrc
+    export PATH="$PATH:$HOME/microelectronics/tools/qucs-s/bin"
 
 Now that Qucs-S is installed, you can delete the build files in ``tools_sources``. Go in that folder then (adapt with
 your version of Qucs-S):

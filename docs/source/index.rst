@@ -51,6 +51,7 @@ Contents
    :caption: Other
 
    other/improvements
+   other/changelogs
 
 
 .. sidebar-links::

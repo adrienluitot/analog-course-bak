@@ -73,6 +73,7 @@ We can copy the compiled binary and move it to our tools directory:
 
     mv target/debug/openvaf ~/microelectronics/tools/
     echo 'export PATH="$PATH:$HOME/microelectronics/tools/"' >> ~/.bashrc
+    export PATH="$PATH:$HOME/microelectronics/tools/"
 
 Now that OpenVAF is installed, you can delete the build files in ``tools_sources``. Go in that folder then:
 
