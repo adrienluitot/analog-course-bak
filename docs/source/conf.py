@@ -12,15 +12,17 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
+    'sphinx_copybutton',
+    'sphinx_design',
+    'sphinx.ext.autosummary',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinx_toolbox.sidebar_links',
-    'sphinx_design',
+    'sphinx_tabs.tabs',
     'sphinx_toolbox.code',
-    'sphinx_toolbox.github'
+    'sphinx_toolbox.github',
+    'sphinx_toolbox.sidebar_links'
 ]
 
 intersphinx_mapping = {
