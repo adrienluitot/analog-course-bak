@@ -35,11 +35,11 @@ Installation
         KLayout website doesn't provide Arm64 packages, therefore you might need to build it yourself. First we need
         to install the dependencies:
 
-         .. code-block:: shell
+        .. code-block:: shell
 
             sudo apt install ruby ruby-dev python3 python3-dev libz-dev libgit2-dev qtbase5-dev qttools5-dev libqt5xmlpatterns5-dev qtmultimedia5-dev libqt5multimediawidgets5 libqt5svg5-dev
 
-        Go to `https://github.com/KLayout/klayout/releases`_ and download the source code of the version you want to
+        Go to `<https://github.com/KLayout/klayout/releases>`_ and download the source code of the version you want to
         build:
 
         .. code-block:: shell
@@ -51,14 +51,17 @@ Installation
 
         .. code-block:: shell
 
-            ./build.sh
+            mkdir ~/microelectronics/tools/klayout
+            ./build.sh -prefix ~/microelectronics/tools/klayout
 
         Once the compilation is done, we can add KLayout to our tools:
 
         .. code-block:: shell
 
-            cp   >> TODO <<
-
+            echo 'export PATH="$PATH:$HOME/microelectronics/tools/klayout"' >> ~/.bashrc
+            echo 'export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$HOME/microelectronics/tools/klayout"' >>  ~/.bashrc
+            export PATH="$PATH:$HOME/microelectronics/tools/klayout"
+            export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$HOME/microelectronics/tools/klayout"
 
         
 
